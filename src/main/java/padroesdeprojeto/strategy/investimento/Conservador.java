@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.logicomp.padroesdeprojeto.strategy.orcamento;
+package padroesdeprojeto.strategy.investimento;
 
 /**
  *
  * @author ferna
  */
-public class ICMS implements Imposto{
+public class Conservador implements Investimento{
 
     @Override
-    public double calcula(Orcamento orcamento) {
-        return orcamento.getValor() * 0.05 + 50;
+    public double calcula(Conta conta) {
+        return conta.getSaldo() * 0.008;
     }
     
 }

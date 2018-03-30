@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.logicomp.padroesdeprojeto.strategy.orcamento;
+package padroesdeprojeto.strategy.investimento;
 
 /**
  *
  * @author ferna
  */
-public interface Imposto {
+public interface Investimento {
     
-    double calcula(Orcamento orcamento);
+    double calcula(Conta conta);
     
 }

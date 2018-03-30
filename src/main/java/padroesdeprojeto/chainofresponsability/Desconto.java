@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.logicomp.padroesdeprojeto.strategy.investimento;
+package padroesdeprojeto.chainofresponsability;
+
+import padroesdeprojeto.strategy.orcamento.Orcamento;
 
 /**
  *
  * @author ferna
  */
-public interface Investimento {
-    
-    double calcula(Conta conta);
-    
+public interface Desconto {
+    double desconta(Orcamento orcamento);
+    void setProximo(Desconto proximo);
 }

@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.logicomp.padroesdeprojeto.strategy.orcamento;
+package padroesdeprojeto.strategy.orcamento;
 
 /**
  *
  * @author ferna
  */
-public class TesteICCC {
+public class Strategy {
     
     public static void main(String[] args) {
-        Orcamento reforma = new Orcamento(500);
-        Imposto novoImposto = new ICCC();
         
-        System.out.println(novoImposto.calcula(reforma));
     }
     
 }

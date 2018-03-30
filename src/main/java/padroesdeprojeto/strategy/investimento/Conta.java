@@ -3,16 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.logicomp.padroesdeprojeto.strategy.orcamento;
+package padroesdeprojeto.strategy.investimento;
 
 /**
  *
  * @author ferna
  */
-public class Strategy {
+public class Conta {
+
+    private double saldo;
     
-    public static void main(String[] args) {
-        
+    public void deposita(double valor){
+        this.saldo += saldo;
     }
+
+    public double getSaldo(){
+        return this.saldo;
+    }
+
     
 }
